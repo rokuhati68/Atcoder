@@ -1,0 +1,5 @@
+N, K = map(int,input().split())
+D = list(map(int,input().split()))
+D.sort()
+ans = sum(D[:N - K])
+print(ans)
